@@ -1,0 +1,86 @@
+
+[
+    {
+    "picture": "images/sedan1.jpg",
+    "car_name": "Z-1",
+    "price": "$10,000",
+    "est_MPG_CityHwy": "Est MPG City/HWY: 23/27"
+},
+
+{
+    "picture": "images/sedan2.jpg",
+    "car_name": "Z-2",
+    "price": "$15,000",
+    "est_MPG_CityHwy": "Est MPG City/HWY: 25/29"
+},
+
+{
+    "picture": "images/sedan3.jpg",
+    "car_name": "Z-3",
+    "price": "$20,000",
+    "est_MPG_CityHwy": "Est MPG City/HWY: 36/39"
+},
+
+{
+    "picture": "images/sports1.jpg",
+    "car_name": "X-1",
+    "price": "$30,000",
+    "est_MPG_CityHwy": "Est MPG City/HWY: 22/28"
+},
+
+{
+    "picture": "images/sports2.jpg",
+    "car_name": "X-2",
+    "price": "$42,000",
+    "est_MPG_CityHwy": "Est MPG City/HWY: 24/30"
+},
+
+{
+    "picture": "images/sports3.jpg",
+    "car_name": "X-3 Turbo",
+    "price": "$80,000",
+    "est_MPG_CityHwy": "Est MPG City/HWY: 30/34"
+},
+
+{
+    "picture": "images/suv1.jpg",
+    "car_name": "C-1",
+    "price": "$15,000",
+    "est_MPG_CityHwy": "Est MPG City/HWY: 22/24"
+},
+
+{
+    "picture": "images/suv2.jpg",
+    "car_name": "C-2",
+    "price": "$24,000",
+    "est_MPG_CityHwy": "Est MPG City/HWY: 24/28"
+},
+
+{
+    "picture": "images/suv3.jpg",
+    "car_name": "C-3",
+    "price": "$34,000",
+    "est_MPG_CityHwy": "Est MPG City/HWY: 30/35"
+},
+
+{
+    "picture": "images/truck1.jpg",
+    "car_name": "V-1",
+    "price": "$20,000",
+    "est_MPG_CityHwy": "Est MPG City/HWY: 20/24"
+},
+
+{
+    "picture": "images/truck2.jpg",
+    "car_name": "V-2",
+    "price": "$29,000",
+    "est_MPG_CityHwy": "Est MPG City/HWY: 24/30"
+},
+
+{
+    "picture": "images/truck3.jpg",
+    "car_name": "V-3",
+    "price": "$39,000",
+    "est_MPG_CityHwy": "Est MPG City/HWY: 25/34"
+}
+]

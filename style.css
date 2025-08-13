@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Space Mono", monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.space-mono-regular {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 4rem;
+    list-style-type: none;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    border-bottom: solid black 0.2rem;
+}
+
+.nav-bar li a {
+    color: black;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.heroimg-container{
+    display: relative;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    background-image: url("heroimg.jpg");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.heroimg-text{
+    display: relative;
+    text-align: center;
+    position: relative;
+    bottom: 4rem;
+    padding-top: 1rem;
+    color:rgb(1, 1, 1)
+}
+
+#heroimg-p{
+    font-size: 0.8rem;
+}
+
+.home-text-container {
+    background-color: rgb(243, 243, 243);
+    border-top: solid black 0.2rem;
+    border-bottom: solid black 0.2rem;
+    display: relative;
+    text-align: center;
+}
+
+.home-text {
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.footer-bar{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    list-style-type: none;
+    color: black;
+    background-color: rgb(233, 235, 235);
+    width: 100%;
+    font-size: 0.5rem;
+    gap: 0.5rem;
+}
+
+.contact_form-div {
+    display: relative;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.contact_form {
+    display: relative;
+    text-align: center;
+    width: 40%;
+    border: solid black 0.2rem;
+    border-radius: 1rem;
+    text-align: left;
+    overflow: hidden;
+    padding: 0.3rem;
+    box-shadow: black 0.05rem 0.05rem 0.05rem;
+}
+
+#submit_button {
+    margin-top: 0.5rem;
+    color: black;
+    background-color: white;
+    width: 5rem;
+    font-size: 1rem;
+    box-shadow: black 0.05rem 0.05rem 0.05rem;
+}
+
+span {
+    font-weight: 1200;
+    font-size: 1.25rem;
+}
+
+.car_products {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.car_products_container {
+    color: black;
+    width: 12rem;
+    border: solid black 0.1rem;
+    box-shadow: black 0.1rem 0.1rem 0.1rem;
+    gap: 1.5rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 6rem;
+}
+.car_products_container img {
+    background-color: black;
+    object-fit: contain;
+    width: 100%;
+    height: 6rem;
+}
+.car_products_container p {
+    text-align: center;
+    border-top: solid black 0.05rem;
+    border-bottom: solid black 0.05rem;
+}
+
+@media screen and (min-width: 800px) { 
+
+.nav-bar {
+    display: flex;
+    gap: 4rem;
+    list-style-type: none;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    border-bottom: solid black 0.2rem;
+    font-size: 2rem;
+}
+
+.nav-bar li a {
+    color: black;
+    text-decoration: none;
+}
+
+span {
+    font-weight: 1200;
+    font-size: 1.8rem;
+}
+
+.heroimg-container{
+    display: relative;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    background-image: url("heroimg.jpg");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25rem;
+    padding-bottom: 30rem;
+}
+
+.heroimg-text{
+    display: relative;
+    text-align: center;
+    position: relative;
+    bottom: 7rem;
+    font-size: 4rem;
+    color:rgb(1, 1, 1)
+}
+
+#heroimg-p{
+    display: relative;
+    text-align: center;
+    position: relative;
+    bottom: 6.5rem;
+    padding-top: 0.1rem;
+    font-size: 3rem;
+}
+
+.home-text {
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 4rem;
+}
+.car_products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    box-shadow: black 0.1rem 0.1rem 0.1rem;
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+    margin-top: 3rem;
+}
+
+.car_products_container img {
+    background-color: black;
+    object-fit: contain;
+    width: 100%;
+    height: 10rem;
+}
+
+.car_products_container p {
+    text-align: center;
+    border-top: solid black 0.05rem;
+}
+
+.contact_form {
+    display: inline-block;
+    width: 25%;
+    margin-right: 3rem;
+    margin-left: 1rem;
+    border: solid rgb(0, 0, 0) 0.2rem;
+    border-radius: 0rem;
+    text-align: left;
+    overflow: hidden;
+    padding: 0.3rem;
+    box-shadow: black 0.1rem 0.1rem 0.1rem;
+}
+
+.contact_form-div {
+    display: relative;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+#submit_button {
+    text-align: center;
+    align-content: center;
+    margin-top: 0rem;
+    color: black;
+    background-color: white;
+    margin-top: 0.5rem;
+    width: 10rem;
+    font-size: 1rem;
+    box-shadow: black 0.05rem 0.05rem 0.05rem;
+}
+
+.footer-bar{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    font-size: 1.25rem;
+    gap: 1rem;
+}
+
+}
