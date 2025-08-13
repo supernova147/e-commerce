@@ -11,7 +11,7 @@ fetch("data.json") //Fetching data form json file.
         product.forEach(cars => { //For each car in the json file, it will..
 
             const card = document.createElement('div'); //Create the div element
-            card.classList.add('car_products_container'); //Add the class 'car_products' for styling.
+            card.classList.add('car_products_container'); //Add the class 'car_product_container' for styling.
             //Below the code inserts the data in the following order along with the referenced element type.
             card.innerHTML = `
                 <img src="${cars.picture}" alt="img of car"></img>
