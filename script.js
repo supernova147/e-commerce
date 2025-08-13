@@ -12,19 +12,19 @@ const button = document.getElementById('submit_button');
 
 button.addEventListener('click', validation())
 
-function validation() {
-    // conditional statements that compare value & ensure that input isnt empty or incorrect.
-    const name_val = name.innerHTML;
-    const email_val = email.innerHTML;
-    const phone_val = phone.innerHTML;
+// function validation() {
+//     // conditional statements that compare value & ensure that input isnt empty or incorrect.
+//     const name_val = name.innerHTML;
+//     const email_val = email.innerHTML;
+//     const phone_val = phone.innerHTML;
 
-    const error_text_name = document.getElementById('name_error').innerHTML;
-    const error_text_email = document.getElementById('email_error').innerHTML;
-    const error_text_phone = document.getElementById('phone_input').innerHTML;
+    // const error_text_name = document.getElementById('name_error').innerHTML;
+    // const error_text_email = document.getElementById('email_error').innerHTML;
+    // const error_text_phone = document.getElementById('phone_input').innerHTML;
 
-    if (! email_val.includes('@') || ! email_val.includes('.')){ 
+    // if (! email_val.includes('@') || ! email_val.includes('.')){ 
         
-    }
+    // }
 
 
     // if (name_val.includes(''))
